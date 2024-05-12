@@ -1,0 +1,118 @@
+*{
+    color: white;
+}
+.glav{
+    width: 100%;
+    min-height: 1000px;
+    float: left;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 610px;
+    min-height: 400px;
+    float: left;
+    background-color: gray;
+}
+.Layout{
+    width: 100%;
+    min-height: 65px;
+    float: left;
+    background-color: #0168FF;
+    margin: 0 0 10px 0;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 150px;
+    min-height: 250px;
+    float: left;
+    background-color: #67A3FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width:300px;
+    min-height:250px;
+    float: left;
+    background-color: #A5A6AB;
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 150px;
+    min-height: 250px;
+    float: left;
+    background-color: #66A3FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    min-height: 65px;
+    float: left;
+    background-color: #0169FF;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .Layout{
+        min-height: 60px;
+        margin: 0 0 15px 0;
+    }
+    .nav{
+        width: 197px;
+    }
+    .content{
+        width: 197px;
+        margin: 0 10px 0 9px;
+    }
+    .sidebar{
+        width: 197px;
+    }
+    .footer{
+        min-height: 60px;
+        margin: 15px 0 0 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Layout{
+        width: 100%;
+        min-height: 40px;
+    }
+    .nav{
+        width: 100%;
+        min-height:80px ;
+        margin: 20px 0 0 0;
+    }
+    .content{
+        width: 100%;
+        margin: 0;
+        min-height:80px ;
+        margin: 20px 0 0 0;
+    }
+    .sidebar{
+        width: 100%;
+        min-height: 80px;
+        margin: 20px 0 0 0;
+    }
+    .footer{
+        width: 100%;
+        min-height: 40px;
+        margin: 20px 0 0 0;
+    }
+}
+
+
+/* @media only screen and (max-width: 1024px) {
+
+} */
